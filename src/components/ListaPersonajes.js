@@ -36,7 +36,7 @@ function ListaPersonajes() {
                 <ul>
                     {personajes.map(personaje => (
                         <li key={personaje.id}>
-                            ID: {personaje.id}, Nombre: {personaje.name}, Email: {personaje.email}
+                            ID: {personaje.id}, Nombre: {personaje.name}, Email: {personaje.email}, Whatsapp:{personaje.whatsapp}
                         </li>
                     ))}
                 </ul>
